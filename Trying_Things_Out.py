@@ -31,7 +31,7 @@ def game():
             main()
 def main():
     try:
-        play_again = input("Would you like to play? Enter 'y' to play again or 'n' to quit: ")
+        play_again = input("Would you like to play? Enter 'y' to play or 'n' to quit: ")
         if play_again == "y":
             game()
         if play_again == "n":
